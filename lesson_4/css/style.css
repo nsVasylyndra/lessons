@@ -1,0 +1,85 @@
+@import url("reset.css");
+ *{ 
+	color: blue;
+}
+p{
+	color: blueviolet;
+}
+.block {
+	color: yellow;
+}
+#mystic {
+	color: red;
+} 
+a{
+	color: blue;
+}
+li{
+	color: blueviolet;
+}
+.text{
+	color: yellowgreen;
+}
+.link{
+	color: aqua;
+}
+#mystic{
+	color: blue;
+}
+#place{
+	color: red;
+}
+#theories{
+	color: aquamarine;
+}
+div.block{
+	color: red;
+}
+.block,
+.text{
+	color:red ;
+}
+ol,
+.block,
+h2{
+	color: blue;
+}
+.block a{
+	color: red;
+} 
+.text #theories{
+	color: red;
+}
+.text *{
+	color: green;
+}
+.text > p {
+	color: red;
+}
+.block > p{
+	color: red;
+}
+ul ~ p {
+	color: red;
+}
+div ~ .text{
+	color: red;
+}
+p + p {
+	color: red;
+}
+.text + .block {
+	color: blue;
+}
+h1 + .block {
+	color: brown;
+} 
+[class*="block"]{
+	color: pink;
+}
+[class*="text"]{
+	color: chocolate;
+}
+*{
+	color: cyan !important;
+} 
